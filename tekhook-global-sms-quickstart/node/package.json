@@ -1,0 +1,20 @@
+{
+  "name": "tekhook-sms-quickstart-node",
+  "version": "1.0.0",
+  "description": "Tekhook SMS API quickstart examples for Node.js",
+  "main": "send-otp.js",
+  "scripts": {
+    "send-otp": "node send-otp.js",
+    "send-bulk": "node send-bulk.js",
+    "webhook": "node webhook-handler.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["tekhook", "sms", "otp", "bulk-sms", "messaging"],
+  "license": "MIT"
+}
